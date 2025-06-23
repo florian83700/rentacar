@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es-do">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Alquila tu vehiculo con nosotros - Futur Media Rent a Car</title>
+        <link href="style.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+        <header>
+            <h1>Futur Media Rent a Car</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="flota.html">Nuestra flota</a></li>
+                    <li><a href="reservar.html">Reserva tu vehiculo</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="hero">
+                <div class="content">
+                    <form action="" method="post">
+                        <label for="time_begin">Desde: <input type="date" id="time_begin" name="time_begin" required/></label>
+                        <label for="time_end">Hasta: <input type="date" id="time_end" name="time_end" required/></label>
+                        <label for="sel_where">Lugar de partida / recogida: 
+                            <select id="sel_where" name="sel_where">
+                                <option value="0">Seleccionar donde recoger el vehiculo</option>
+                                <optgroup label="Aeropuerto">
+                                    <option value="aila">Aeropuerto Las Americas</option>
+                                    <option value="punta-cana">Aeropuerto Internacional Punta Cana</option>
+                                </optgroup>
+                                <optgroup label="ciudad">
+                                    <option value="santo-domingo">Santo Domingo</option>
+                                    <option value="punta-cana">Punta Cana</option>
+                                    <option value="bavaro">Bavaro</option>
+                                </optgroup>
+                            </select>
+                        </label>
+                        <button type="submit" name="submit" id="submit-hero">Buscar</button>
+                    </form>
+                </div>
+            </section>
+            <section class="vehicule">
+                <h2 class="title">Nuestros vehiculos</h2>
+                <p class="description">Tenemos una amplia gama de vehiculos nuevos y usados. Querremos que alquile nuestros vehiculos con toda seguridad. Nuestros vehiculos tienen muy poco kilometros, con todos sus mantenimientos realizados.</p>
+                <div class="slider-vehicule">
+                    <article>
+                        <h3>Fiat Sienna </h3>
+                        <figure>
+                            <img src="https://adaa-rd.com/wp-content/uploads/2020/08/vehicule-fiat-siena-sans-logo-adlarepdom-300x200.jpg" alt="Alquila un fiat Sienna sin estres - Futur Media Rent a Car"/>
+                            <figcaption>Alquila un fiat Sienna sin estres al mejor precio</figcaption>
+                        </figure>
+                        
+                        <p>Alquila una Fiat Sienna con Futur Media Rent a Car desde US$40 / dia.</p>
+                    </article>
+                    <article>
+                        <h3>Renault Logan </h3>
+                        <figure>
+                            <img src="https://adaa-rd.com/wp-content/uploads/2020/08/vehicule-renault-logan-sans-logo-adlarepdom-300x200.jpg" alt="Alquila un Renault Logan sin estres - Futur Media Rent a Car"/>
+                            <figcaption>Alquila un Renault Logan sin estres al mejor precio</figcaption>
+                        </figure>
+                        
+                        <p>Alquila una Renault Logan con Futur Media Rent a Car desde US$50 / dia.</p>
+                    </article>
+                    <article>
+                        <h3>Volkswagen Crossfox </h3>
+                        <figure>
+                            <img src="https://adaa-rd.com/wp-content/uploads/2020/08/vehicule-volkswagen-crossfox-adlarepdom-300x200.jpg" alt="Alquila un Volkswagen Crossfox sin estres - Futur Media Rent a Car"/>
+                            <figcaption>Alquila un Volkswagen Crossfox sin estres al mejor precio</figcaption>
+                        </figure>
+                        
+                        <p>Alquila una Volkswagen Crossfox con Futur Media Rent a Car desde US$50 / dia.</p>
+                    </article>
+                </div>
+            </section>
+            <section class="contact">
+                <h2 class="title">Comentarios / contactos</h2>
+                <p class="description">Para Futur Media Rent a Car sus comentarios son importantes para nosotros. Para dejarnos sus comentarios, pueden llenar este formulario o chequear nuestra pagina de <a href="contacto.html">contacto</a></p>
+                <form action="" method="post">
+                    <div class="row">
+                        <label for="contact_user_name">Nombre completo : * <input type="text" name="contact_user_name" id="contact_user_name" placeholder="Su nombre completo" required/></label>
+                    </div>
+                    <div class="row">
+                        <label for="contact_email">Email : * <input type="email" name="contact_email" id="contact_email" placeholder="Su email" required/></label>
+                    </div>
+                    <div class="row">
+                        <label for="contact_object">Asunto : * <input type="text" name="contact_object" id="contact_object" placeholder="Asunto contacto" required/></label>
+                    </div>
+                    <div class="row">
+                        <label for="contact_message">Mensaje : * <textarea name="contact_message" id="contact_message" rows="10" cols="20" placeholder="Mensaje contacto"></textarea></label>
+                    </div>
+                    <button type="submit" name="submit" id="submit" value="submit">Enviar mensaje</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>&copy;2025 - Florian Martinez - Todos los derechos reservados.</p>
+        </footer>
+    </body>
+</html>

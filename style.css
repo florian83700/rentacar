@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header nav {
+    margin: 25px;
+}
+
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav ul li {
+    list-style-type: none;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: brown;
+    font-weight: 700;
+}
+
+
+main .content{
+    padding: 25px;
+    color: white;
+    background: url("./img/pexels-mikebirdy-120049.jpg") no-repeat;
+    height: 250px;
+}
+
+main .content{
+    display: flex;
+    align-items: center;
+}
+
+main .content label {
+    margin: 10px;
+    font-size: 1.3rem;
+}
+
+main .content input {
+    margin: 5px;
+    font-size: 1.3rem;
+}
+
+main .content select {
+    font-size: 1rem;
+}
+
+main .content #submit-hero {
+    border-radius: 5px;
+    padding: 5px 25px;
+    background-color: blue;
+    color: white;
+    font-size: 1.2rem;
+    border: 1px solid blue;
+}
+
+
+section .title {
+    font-size: 2rem;
+    text-align: center;
+    padding: 20px;
+}
+
+section .description {
+    font-size: 1.2rem;
+    text-align: justify;
+    padding: 10px;
+}
+
+.slider-vehicule {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider-vehicule article {
+    border-radius: 10px;
+    margin-left: 10px ;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 25px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2)  ;
+}
+
+.slider-vehicule article:hover {
+    background-color: wheat;
+}
+
+.slider-vehicule figure {
+    border-radius: 10px;
+    margin-top: 10px ;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 25px;
+}
+
+.contact form{
+    width: 60%;
+    margin: auto;
+}
+
+.row {
+    display: block;
+}
+
+.row label {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.row input {
+    font-size: 1.3rem;
+}
+
+.row input{
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.row textarea{
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.contact form button {
+    border-radius: 5px;
+    padding: 5px 25px;
+    background-color: blue;
+    color: white;
+    font-size: 1.2rem;
+    border: 1px solid blue;
+}
+
+footer{
+    margin-top: 10px;
+    text-align: center;
+    background-color: brown;
+    color: white;
+    height: 30px;
+    padding: 15px;
+}
+
+footer p {
+    font-size: 1.2rem;
+}
